@@ -1,0 +1,9 @@
+pandas>=2.0
+numpy
+lightgbm
+statsmodels
+scikit-learn
+matplotlib
+seaborn
+jupyter
+kaggle

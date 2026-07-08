@@ -1,0 +1,20 @@
+# Data — M5 CSVs are ~450MB, never commit them
+data/*.csv
+data/*.parquet
+data/*.zip
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model artifacts
+*.pkl
+*.joblib
+models/
