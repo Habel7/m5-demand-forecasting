@@ -1,6 +1,6 @@
-# Retail Demand Forecasting — M5 (Walmart) Dataset
+# Retail Demand Forecasting - M5 (Walmart) Dataset
 
-> 🚧 **In progress** — building in public. Follow the commits.
+> 🚧 **In progress** - building in public. Follow the commits.
 
 Forecasting daily unit sales for 3,049 products across 10 Walmart stores, using the
 [M5 competition dataset](https://www.kaggle.com/competitions/m5-forecasting-accuracy).
@@ -13,15 +13,15 @@ as a real operational cost.
 ## Roadmap
 
 - [x] Repo setup and data pipeline
-- [ ] Exploratory analysis — sales patterns, seasonality, promotions (SNAP), price effects
-- [ ] Baseline models — naive, seasonal naive, moving average
-- [ ] ML models — LightGBM with calendar/price/lag features
-- [ ] Evaluation — WRMSSE (competition metric) + a "cost of error" translation
+- [ ] Exploratory analysis - sales patterns, seasonality, promotions (SNAP), price effects
+- [ ] Baseline models - naive, seasonal naive, moving average
+- [ ] ML models - LightGBM with calendar/price/lag features
+- [ ] Evaluation - WRMSSE (competition metric) + a "cost of error" translation
 - [ ] Findings writeup
 
 ## Results
 
-*(coming — this table fills in as models land)*
+*(coming - this table fills in as models land)*
 
 | Model | WRMSSE | Notes |
 |---|---|---|
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 
 Download the M5 data from [Kaggle](https://www.kaggle.com/competitions/m5-forecasting-accuracy/data)
-and place the CSVs in `data/` (not tracked by git — see `data/README.md`).
+and place the CSVs in `data/` (not tracked by git - see `data/README.md`).
 
 ## Structure
 
